@@ -1,0 +1,28 @@
+Printed/tested only on ender 3
+For the most part everything was generated with supports requiring 59°, 0.12mm layer size, though 0.2mm seemed to be fine
+Print as much as you can without a raft. Tolerances should be better without a raft and it will look nicer/smooth on both sides though you could be better at configuring the raft settings than I was
+
+They should all be already correctly oriented
+
+For screws I used m2.5 nylon standoffs, screws, and nuts to assemble
+
+
+/// Front servo mount:
+Make sure you don't overtighten the screws/nuts. You need them tight enough where it's not wobbly but loose enough where it can move freely like a pin/joint
+
+/// Front grill:
+I think my required overhang angle to generate supports was set to something weird like 88° to prevent the unneeded outside supports but give the needed inside supports.
+A bit of a design flaw here, the barrel plug from the batteries protrudes past the grill, the rc car doesn't move that fast really but if you were to ram it into something it could cause damage.
+This would happen with or without the grill installed.
+
+/// Servo holder:
+you need to print 5 of these. For the underneath servo I believe the servo holder stuck out a bit too far as different model servos arent the same size, 
+the model would likely need to be shortened. I ended up just trimming the bottom with scissors lol. I placed a shortened version of the servo holder 
+in the unsused folder but have not yet had time to test it. It's likely the better one to print.
+
+/// Front plate:
+Something very strange happened to me here, halfway up the screw holes for the servo holder mount section the screw holes shifted by 1mm making the holes unusable. This was really unexpected as it didn't show this in cura.
+I widened them with a utility knife and they worked perfectly. Don't know if this will happen to anyone else
+
+/// License plate: 
+It's really just the lithoplane license plate, I made a little tinfoil wooden lightbox with hot glue to place 2 LEDs inside, then connect them to the terminals in parallel, no resistors were needed
